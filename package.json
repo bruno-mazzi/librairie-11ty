@@ -1,0 +1,24 @@
+{
+  "name": "librairie-11ty",
+  "version": "1.0.0",
+  "description": "Sources d'un site pour présenter livres, magazines, dépliants, guides sur le japon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruno-mazzi/librairie-11ty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bruno-mazzi/librairie-11ty/issues"
+  },
+  "homepage": "https://github.com/bruno-mazzi/librairie-11ty#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.1.2"
+  }
+}
