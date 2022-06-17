@@ -3,7 +3,7 @@ title: "Kotchi kotchi"
 date: Last Modified
 categories: ["Guide"]
 tags: post
-couverture: "/img/kotchi-kotchi.jpg"
+couverture: "/img/kotchi-kotchi.webp"
 ---
 
 Si vous ne deviez prendre qu’un guide pour voyager au Japon, c’est simple, c’est celui-là. C’est le guide que j’aurais aimé avoir pour mon premier voyage.

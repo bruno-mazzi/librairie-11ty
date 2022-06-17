@@ -3,7 +3,7 @@ title: "Maneki-neko et autres histoires d'objets japonais"
 date: Last Modified
 categories: ["Illustration"]
 tags: post
-couverture: "/img/maneki.jpg"
+couverture: "/img/maneki.webp"
 ---
 
 D’abord sous forme de bande dessinée en ligne, puis sous forme de petit livret auto-edité&nbsp;: Petites choses du Japon voici enfin le livre de Joranne sur les objets japonais.

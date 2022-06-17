@@ -3,7 +3,7 @@ title: Tottori
 date: Last Modified
 categories: ["Guide"]
 tags: post
-couverture: "/img/tottori.jpg"
+couverture: "/img/tottori.webp"
 ---
 
 Il s’agit d’un petit guide (50 pages), auto-édité sur la préfecture de Tottori.
