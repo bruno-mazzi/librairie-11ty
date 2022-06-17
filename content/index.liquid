@@ -3,20 +3,23 @@ title: Lectures & Japon
 layout: main
 ---
 
+<div class="collection">
 {% for post in collections.post reversed %}
-<article class="">
-    <a href="{{post.url}}" class="">
-        <img src="" alt="couverture de Maneki-neko et autres histoires d'objets japonais" loading="lazy">
-        <h2 class="">{{ post.data.title }}</h2>
-    </a>
+
+<article class="ouvrage">
+    <div>
+        <a href="{{post.url}}">
+            <img src="{{ post.data.couverture }}" alt="couverture de {{ post.data.title }}" loading="lazy">
+            <h2 class="h4 ouvrage-title">{{ post.data.title }}</h2>
+        </a>
+        
+        <p class="text-1">{{ post.data.page.excerpt }}<br>
+        <a href="{{post.url}}"><span class="sr-only">Présentation de {{ post.data.title }}</span> Lire la suite</a></p>
+    </div>
     
-    {{ post.data.page.excerpt }}
-    
-    <p><a href="{{post.url}}" class=""><span class="sr-only">Présentation du livre Maneki-neko et autres histoires d'objets japonais</span> Lire la suite</a></p>
-    
-    <footer class="">
-        <p class="">{{ post.date }}</p>
-        <p class="">Catégorie :
+    <footer class="ouvrage-footer">
+        <p class="caption">Mise à jour : {{ post.date | niceDate }}</p>
+        <p class="caption">Catégorie :
         {% for cat in post.data.categories %}
             <a href="/categories/{{ cat | downcase }}/index.html">{{ cat }}</a>
         {% endfor %}
@@ -24,3 +27,4 @@ layout: main
     </footer>
 </article>
 {% endfor %}
+</div>

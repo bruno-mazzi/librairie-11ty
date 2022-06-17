@@ -4,14 +4,16 @@ module.exports = eleventyConfig => {
 
 	eleventyConfig.addPlugin(pluginRss);
 
-	eleventyConfig.addPassthroughCopy("css/");
+	eleventyConfig.addPassthroughCopy("content/css");
+	eleventyConfig.addPassthroughCopy("content/img");
+	eleventyConfig.addPassthroughCopy("content/fonts");
 
 	eleventyConfig.setFrontMatterParsingOptions({
 		excerpt: true,
 		excerpt_separator: "<!-- excerpt -->"
 	});
 
-	eleventyConfig.addCollection("categories", function(collectionApi) {
+	eleventyConfig.addCollection("categories", function (collectionApi) {
 		let categories = new Set();
 		let posts = collectionApi.getFilteredByTag('post');
 		posts.forEach(p => {
@@ -21,7 +23,7 @@ module.exports = eleventyConfig => {
 		return Array.from(categories);
 	});
 
-	eleventyConfig.addFilter("filterByCategory", function(posts, cat) {
+	eleventyConfig.addFilter("filterByCategory", function (posts, cat) {
 		cat = cat.toLowerCase();
 		let result = posts.filter(p => {
 			let cats = p.data.categories.map(s => s.toLowerCase());
@@ -29,6 +31,12 @@ module.exports = eleventyConfig => {
 		});
 		return result;
 	});
+
+	const french = new Intl.DateTimeFormat('fr');
+	eleventyConfig.addFilter("niceDate", function (d) {
+		return french.format(d);
+	});
+
 
 	return {
 		dir: {

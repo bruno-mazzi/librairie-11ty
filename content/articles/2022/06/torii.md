@@ -1,8 +1,9 @@
 ---
 title: "Livre Photo Sur Les Torii"
-date: 2022-06-13
+date: Last Modified
 categories: ["Photo"]
 tags: post
+couverture: "/img/torii.jpg"
 ---
 
 Ce livre d’un peu moins de 200 pages, tout en japonais, est entièrement consacré aux torii : les portails vermillon (mais pas que) qui sont liés à la religion shintoïste et dont la fonction est de séparer le monde physique du monde spirituel.

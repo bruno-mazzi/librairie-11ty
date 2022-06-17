@@ -1,8 +1,9 @@
 ---
 title: "Kotchi kotchi"
-date: 2022-06-13
-categories: ["guide"]
+date: Last Modified
+categories: ["Guide"]
 tags: post
+couverture: "/img/kotchi-kotchi.jpg"
 ---
 
 Si vous ne deviez prendre qu’un guide pour voyager au Japon, c’est simple, c’est celui-là. C’est le guide que j’aurais aimé avoir pour mon premier voyage.
@@ -13,7 +14,7 @@ Il ne s’agit pas d’un guide classique avec liste d’adresses d’hôtels, d
 Il aborde des sujets aussi divers que le passage de la douane à l’arrivée au Japon, comment acheter une carte pour le métro, les divers types de nourriture, les divers restaurants, les us et coutumes à respecter, un guide des villes, quelques idées d’itinéraires, les dates des fêtes etc, etc.
 Bref sur plus de 300 pages vous avez un concentré d’informations et d’expériences sur les voyages au Japon, de quoi désarmorcer des inquiétudes et surtout d’ouvrir des perspectives sur beaucoup de sujets.
 
-##Détails :
+## Détails :
 
 - Auteurs : Alexandre Bonnefoy - Delphine Vaufrey - [http://www.issekinicho.fr/accueil/](http://www.issekinicho.fr/accueil/)
 - Langue : Français

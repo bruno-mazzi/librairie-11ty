@@ -1,8 +1,9 @@
 ---
 title: Tottori
-date: 2022-06-13
-categories: ["guide"]
+date: Last Modified
+categories: ["Guide"]
 tags: post
+couverture: "/img/tottori.jpg"
 ---
 
 Il s’agit d’un petit guide (50 pages), auto-édité sur la préfecture de Tottori.

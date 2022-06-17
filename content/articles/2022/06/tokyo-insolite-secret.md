@@ -1,8 +1,9 @@
 ---
 title: "Tokyo Insolite et Secrète"
-date: 2022-06-13
-categories: ["guide"]
+date: Last Modified
+categories: ["Guide"]
 tags: post
+couverture: "/img/tokyo-insolite-secrete.jpg"
 ---
 
 Un guide qui présente, comme son nom l'indique, des lieux insolites et/ou peu connus de Tokyo.

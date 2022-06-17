@@ -3,4 +3,4 @@ Sources d'un site pour présenter livres, magazines, dépliants, guides sur le j
 
 ## Remercienents
 
-Le guide de Raymond Camdem m'a bien aidé pour commencé sur Eleventy : https://cfjedimaster.github.io/eleventy-blog-guide/guide.html
+Le guide de Raymond Camdem m'a bien aidé pour commencer sur Eleventy : https://cfjedimaster.github.io/eleventy-blog-guide/guide.html
