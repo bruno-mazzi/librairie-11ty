@@ -7,6 +7,7 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPassthroughCopy("content/css");
 	eleventyConfig.addPassthroughCopy("content/img");
 	eleventyConfig.addPassthroughCopy("content/fonts");
+	eleventyConfig.addPassthroughCopy("content/js");
 
 	eleventyConfig.setFrontMatterParsingOptions({
 		excerpt: true,

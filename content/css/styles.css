@@ -139,16 +139,23 @@ html, body {
     margin:8px 0;
 }
 
+.main-header a {
+    text-decoration: none;
+}
+
 /* content */
 .collection {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     margin:0 auto;
     max-width:1440px;
 }
 
-.collection > * {
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+.list > * {
     margin:8px 0.5%;
     width:24%;
 }
@@ -177,6 +184,32 @@ html, body {
 
 .ouvrage-footer > * {
     margin: 2px 0;
+}
+
+/* post */
+.main-ouvrage {
+    margin:0 auto;
+    max-width:1024px;
+}
+
+.main-ouvrage h3 {
+    border-top:1px solid var(--main-bg-color);
+    color: var(--heading-color);
+    font-family: var(--fonts-stack-heading);
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: -.0073529412em;
+    line-height:1;
+    margin:0;
+    padding-top: 8px;
+}
+
+.main-ouvrage h3 + ul {
+    color: var(--text-color);
+    font-family: var(--fonts-stack-base);
+    font-size: 0.85rem;
+    line-height: 1.4;
+    letter-spacing: -.03333em;
 }
 
 /* footer */

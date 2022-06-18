@@ -3,7 +3,7 @@ title: "Livre Photo Sur Les Torii"
 date: Last Modified
 categories: ["Photo"]
 tags: post
-couverture: "/img/torii.webp"
+couverture: "/img/torii/couverture.webp"
 ---
 
 Ce livre d’un peu moins de 200 pages, tout en japonais, est entièrement consacré aux torii : les portails vermillon (mais pas que) qui sont liés à la religion shintoïste et dont la fonction est de séparer le monde physique du monde spirituel.
@@ -16,7 +16,7 @@ Pour la qualité des textes, j’aurais bien du mal à avoir un avis vu que je n
 
 Pour aller plus loin, Geoffrey Hugel avait fait un billet de blog sur les torii insolites de Kyoto que je vous recommande.
 
-##Détails :
+### Détails :
 
 - Auteur : 藤本 頼生 
 - Langue : Japonais

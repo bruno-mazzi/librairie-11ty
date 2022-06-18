@@ -2,8 +2,9 @@
 layout: main
 ---
 
-<div>
+<div class="main-ouvrage">
     <h2 class="h4">{{ title }}</h2>
-
     {{ content }}
+    {% for cat in categories %}
+	<p>Catégorie(s) : <a href="/categories/{{ cat | slug }}">{{ cat }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
 </div>
