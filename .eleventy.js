@@ -38,6 +38,12 @@ module.exports = eleventyConfig => {
 		return french.format(d);
 	});
 
+	eleventyConfig.addFilter("niceDateJs", function (d) {
+		var datum = Date.parse(d)
+		return datum/1000;
+		console.log(datum)
+	});
+
 
 	return {
 		dir: {

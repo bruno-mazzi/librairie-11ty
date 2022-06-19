@@ -16,10 +16,11 @@ description: Présentation de livres, magazines, brochures, bandes dessinées su
     </head>
     <body>
         <header class="main-header" role="banner">
+            <a href="#main" class="sr-only sr-only-focusable text-1">Aller au contenu</a>
             <h1 class="h4"><a href="/">{{ main-title }}</a></h1>
             <p class="">{{ description }} <a href="#about" class="">Pour en savoir plus</a>.
         </header>
-        <main class="content" role="main">
+        <main id="main" class="content" role="main">
             {{ content }}
         </main>
         <footer class="main-footer" role="contentinfo">

@@ -1,6 +1,6 @@
 ---
 title: "Tokyo Insolite et Secrète"
-date: Last Modified
+date: 2017-06-22
 categories: ["Guide"]
 tags: post
 couverture: "/img/tokyo-insolite-secret/couverture.webp"
