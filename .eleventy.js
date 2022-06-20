@@ -8,6 +8,8 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPassthroughCopy("content/img");
 	eleventyConfig.addPassthroughCopy("content/fonts");
 	eleventyConfig.addPassthroughCopy("content/js");
+	eleventyConfig.addPassthroughCopy("content/favicon.ico");
+
 
 	eleventyConfig.setFrontMatterParsingOptions({
 		excerpt: true,

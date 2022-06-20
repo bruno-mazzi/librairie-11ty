@@ -5,35 +5,54 @@ description: Présentation de livres, magazines, brochures, bandes dessinées su
 
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ title }} - {{ main-title }}</title>
-        <meta name="description" content="{{ description }}">
-        <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/css/styles.css">
-    </head>
-    <body>
-        <header class="main-header" role="banner">
-            <a href="#main" class="sr-only sr-only-focusable text-1">Aller au contenu</a>
-            <h1 class="h4"><a href="/">{{ main-title }}</a></h1>
-            <p class="">{{ description }} <a href="#about" class="">Pour en savoir plus</a>.
-        </header>
-        <main id="main" class="content" role="main">
-            {{ content }}
-        </main>
-        <footer class="main-footer" role="contentinfo">
-            <div id="about" class="">
-            <p class="text-1">Que ce soit en France ou au Japon, j'ai, au fil des ans, rassemblé une petite collection de livres, magazines, brochures, bandes dessinées sur le Japon.<br />Je me suis dit que ça pourrait intéresser d'autres personnes d'en avoir la liste agrémenté de quelques photos, liens et vidéos. Ça n'a pas vocation à être exhaustif et le seul fil rouge c'est le Japon.</p>
 
-            <p class="text-1">Tout est rédigé par moi-même : <a href="https://twitter.com/obilabilon" class="">Bruno</a>. Et si vous avez des livres intéressant sur le sujet qui m'aurait échappé, n'hésitez pas. Les messages privés sont ouvert sur twitter.</p>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - {{ main-title }}</title>
+    <meta name="description" content="{{ description }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
 
-            <p class="text-1">Enfin, si ça vous donne envie d'acheter un livre, préférez une librairie à Amazon. Ou encore passez par un site en ligne qui fédère les libraires : <a href="https://www.placedeslibraires.fr/" class="">Place des libraires</a>, <a href="https://www.leslibraires.fr/" class="">Les libraires</a> ou <a href="https://www.librairiesindependantes.com/" class="">Librairie indépendante</a>.</p>
+<body>
+    <header class="main-header" role="banner">
+        <a href="#main" class="sr-only sr-only-focusable text-1 skip-to-content">Aller au contenu</a>
+        <h1 class="h4"><a href="/">{{ main-title }}</a></h1>
+        <p class="">{{ description }} <a href="#about" class="">Pour en savoir plus</a>.
+    </header>
+    <main id="main" class="content" role="main">
+        {{ content }}
+    </main>
+    <footer class="main-footer" role="contentinfo">
+        <div id="about" class="">
+            <p class="text-1">Que ce soit en France ou au Japon, j'ai, au fil des ans, rassemblé une petite collection
+                de livres, magazines, brochures, bandes dessinées sur le Japon.<br />Je me suis dit que ça pourrait
+                intéresser d'autres personnes d'en avoir la liste agrémenté de quelques photos, liens et vidéos. Ça n'a
+                pas vocation à être exhaustif et le seul fil rouge c'est le Japon.</p>
+
+            <p class="text-1">Tout est rédigé par moi-même : <a href="https://twitter.com/obilabilon"
+                    class="">Bruno</a>. Et si vous avez des livres intéressant sur le sujet qui m'aurait échappé,
+                n'hésitez pas. Les messages privés sont ouvert sur twitter.</p>
+
+            <p class="text-1">Enfin, si ça vous donne envie d'acheter un livre, préférez une librairie à Amazon. Ou
+                encore passez par un site en ligne qui fédère les libraires : <a
+                    href="https://www.placedeslibraires.fr/" class="">Place des libraires</a>, <a
+                    href="https://www.leslibraires.fr/" class="">Les libraires</a> ou <a
+                    href="https://www.librairiesindependantes.com/" class="">Librairie indépendante</a>.</p>
         </div>
-            <p class="text-1">&copy; 2022 <a href="" class="underline">Lectures &amp; Japon</a> - <a href="" class="">Mentions légales</a></p>
-        </footer>
-        <script src="../js/list.min.js"></script>
-        <script src="../js/script.js"></script>
-    </body>
+        <p class="text-1">&copy; 2022 <a href="/" class="underline">Lectures &amp; Japon</a> - <a href="/mentions">Mentions légales</a></p>
+    </footer>
+    <script src="../js/list.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
 </html>

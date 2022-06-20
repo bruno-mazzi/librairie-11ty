@@ -5,6 +5,9 @@ layout: main
 <div class="main-ouvrage">
     <h2 class="h4">{{ title }}</h2>
     {{ content }}
-    {% for cat in categories %}
-	<p>Catégorie(s) : <a href="/categories/{{ cat | slug }}">{{ cat }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    <div class="sub-details">
+        {% for cat in categories %}
+        <p class="caption">Catégorie(s) : <a href="/categories/{{ cat | slug }}">{{ cat }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}<br>
+        Dernière mise à jour : {{ last-update }}</p>
+    </div>
 </div>

@@ -1,6 +1,7 @@
 ---
 title: "Kotchi kotchi"
 date: 2018-02-10
+last-update: 20-06-2022
 categories: ["Guide"]
 tags: post
 couverture: "/img/kotchi-kotchi/couverture.webp"

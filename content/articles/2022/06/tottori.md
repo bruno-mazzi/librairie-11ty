@@ -1,6 +1,7 @@
 ---
 title: Tottori
 date: 2018-05-01
+last-update: 20-06-2022
 categories: ["Guide"]
 tags: post
 couverture: "/img/tottori/couverture.webp"

@@ -1,6 +1,7 @@
 ---
 title: "Maneki-neko et autres histoires d'objets japonais"
 date: 2019-11-13
+last-update: 20-06-2022
 categories: ["Illustration"]
 tags: post
 couverture: "/img/maneki-neko/couverture.webp"
