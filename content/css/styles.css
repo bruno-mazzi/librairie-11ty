@@ -17,10 +17,10 @@
 }
 
 :root {
-    --main-bg-color: hsl(0, 0%, 80%);
+    --main-bg-color: hsl(195, 33%, 98%);
     --alt-bg-color :hsl(220, 13%, 91%);
+    --alt2-bg-color :hsl(0, 0%, 80%);
     --heading-color: hsl(242, 47%, 34%);
-    --main-bg-color: hsl(0, 0%, 10%);
     --fonts-stack-base: "opensans-regular", Arial, Helvetica, sans-serif;
     --fonts-stack-heading: "opensanscondensed-bold", Arial, Helvetica, sans-serif;
 }
@@ -143,17 +143,44 @@ a:hover {
     opacity:0.8;
 }
 
+.false-link {
+    background: transparent;
+    border:0;
+    color: var(--heading-color);
+    cursor: pointer;
+    margin:0;
+    padding:0;
+    text-decoration: underline;
+}
+
 /* body */
 html {
     height: -webkit-fill-available;
 }
 
 html, body {
+    background: var(--main-bg-color);
     color: var(--text-color);
     font-family: var(--fonts-stack-base);
-    height: 100%;
     margin:0;
+    min-height: 100%;
     padding:0;
+}
+
+body.dark-mode {
+    --main-bg-color: hsl(220, 26%, 14%);
+    --alt-bg-color : hsl(216, 23%, 23%);
+    --alt2-bg-color: hsl(218, 17%, 35%);
+    --heading-color: hsl(174, 56%, 56%);
+    --text-color: hsl(220, 13%, 91%);
+}
+
+body.dark-mode .ouvrage {
+    background: var(--alt-bg-color);
+}
+
+body.dark-mode .ouvrage-footer {
+    background: var(--alt2-bg-color);
 }
 
 /* header */
@@ -260,6 +287,33 @@ html, body {
 .main-footer {
     background: var(--alt-bg-color);
     padding:16px;
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+
+    :root {
+        --main-bg-color: hsl(220, 26%, 14%);
+        --alt-bg-color : hsl(216, 23%, 23%);
+        --alt2-bg-color: hsl(218, 17%, 35%);
+        --heading-color: hsl(174, 56%, 56%);
+        --text-color: hsl(220, 13%, 91%);
+    }
+    
+    .ouvrage {
+        background: var(--alt-bg-color);
+    }
+    
+    .ouvrage-footer {
+        background: var(--alt2-bg-color);
+    }
+
+    body.light-mode {
+        --main-bg-color: hsl(195, 33%, 98%);
+        --alt-bg-color :hsl(220, 13%, 91%);
+        --alt2-bg-color :hsl(0, 0%, 80%);
+        --heading-color: hsl(242, 47%, 34%);
+    }
 }
 
 /* responsive */
