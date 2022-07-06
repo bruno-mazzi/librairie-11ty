@@ -1,11 +1,15 @@
 function sortList() {
-  document.querySelector('.filters').style.display = 'block';
-    
-  var options = {
-      valueNames: [ 'ouvrage-title', { name: 'time', attr: 'data-time' } ]
-  };
-      
-  var collectionList = new List('js-collection', options);
+  var body = document.querySelector("body");
+
+    if(body.classList.contains("home")) {
+        document.querySelector('.filters').style.display = 'block';
+        
+        var options = {
+            valueNames: [ 'ouvrage-title', { name: 'time', attr: 'data-time' } ]
+        };
+            
+        var collectionList = new List('js-collection', options);
+    }
 }
 
 function changeTheme() {

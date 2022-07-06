@@ -23,7 +23,7 @@ description: Présentation de livres, magazines, brochures, bandes dessinées su
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body>
+<body class="{% if page.url == "/" %}home{% endif %}">
     <header class="main-header" role="banner">
         <a href="#main" class="sr-only sr-only-focusable text-1 skip-to-content">Aller au contenu</a>
         <h1 class="h4"><a href="/">{{ main-title }}</a></h1>
@@ -51,8 +51,8 @@ description: Présentation de livres, magazines, brochures, bandes dessinées su
         </div>
         <p class="text-1">&copy; 2022 <a href="/" class="underline">Lectures &amp; Japon</a> - <a href="/mentions">Mentions légales</a> - <button class="false-link btn-toggle">Mode sombre</button></p>
     </footer>
-    <script src="../js/list.min.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="/js/list.min.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
